@@ -5,14 +5,14 @@ KotlinPOI program implements an application that simply reads and writes Microso
 Function call example that writes docx, xlsx, and pptx files in Windows Operating System
 ```kotlin
 createDocx("C:/Users/Public/Documents/document.docx", "Hello, world!")
-createXlsx("C:/Users/Public/Documents/spreadsheet.xlsx", "Hello, world!")
+createXlsx("C:/Users/Public/Documents/workbook.xlsx", "Hello, world!")
 createPptx("C:/Users/Public/Documents/presentation.pptx", "Hello, world!")
 ```
 
 Function call example that reads docx, xlsx, and pptx files in Windows Operating System
 ```kotlin
 readDocx("C:/Users/Public/Documents/document.docx")
-readXlsx("C:/Users/Public/Documents/spreadsheet.xlsx")
+readXlsx("C:/Users/Public/Documents/workbook.xlsx")
 readPptx("C:/Users/Public/Documents/presentation.pptx")
 ```
 
