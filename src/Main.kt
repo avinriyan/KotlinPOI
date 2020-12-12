@@ -14,12 +14,12 @@ fun main() {
     //This is an example for Microsoft Windows Operating System
     println("O======================== WRITE ========================O")
     createDocx("C:/Users/Public/Documents/document.docx", "Hello, world!")
-    createXlsx("C:/Users/Public/Documents/spreadsheet.xlsx", "Hello, world!")
+    createXlsx("C:/Users/Public/Documents/workbook.xlsx", "Hello, world!")
     createPptx("C:/Users/Public/Documents/presentation.pptx", "Hello, world!")
     println("O======================================================O\n")
     println("O======================== READ ========================O")
     println("Output from reading docx file: "+readDocx("C:/Users/Public/Documents/document.docx"))
-    println("Output from reading xlsx file: "+readXlsx("C:/Users/Public/Documents/spreadsheet.xlsx"))
+    println("Output from reading xlsx file: "+readXlsx("C:/Users/Public/Documents/workbook.xlsx"))
     println("Output from reading pptx file: "+readPptx("C:/Users/Public/Documents/presentation.pptx"))
     println("O======================================================O")
 }
