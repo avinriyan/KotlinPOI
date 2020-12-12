@@ -26,8 +26,8 @@ fun readDocx(path: String): String {
 /**
  * This method is used to read simple xlsx file in a specific location.
  * @param path path where the file will be read
- * Example in Microsoft Windows: "C:/Users/Public/Documents/spreadsheet.xlsx"
- * Example in Unix-like OS: "/home/user/Documents/spreadsheet.xlsx"
+ * Example in Microsoft Windows: "C:/Users/Public/Documents/workbook.xlsx"
+ * Example in Unix-like OS: "/home/user/Documents/workbook.xlsx"
  * @return String This returns text in the file
  */
 fun readXlsx(path: String): String {
