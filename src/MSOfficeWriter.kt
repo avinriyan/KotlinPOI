@@ -33,8 +33,8 @@ fun createDocx(path: String, message: String) {
 /**
  * This method is used to write simple xlsx file in a specific location.
  * @param path path where the file will be stored
- * Example in Microsoft Windows: "C:/Users/Public/Documents/spreadsheet.xlsx"
- * Example in Unix-like OS: "/home/user/Documents/spreadsheet.xlsx"
+ * Example in Microsoft Windows: "C:/Users/Public/Documents/workbook.xlsx"
+ * Example in Unix-like OS: "/home/user/Documents/workbook.xlsx"
  * @param message message to be written in the file
  * Example: "Hello, world!"
  * @return Nothing.
